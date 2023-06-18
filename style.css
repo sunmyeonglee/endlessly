@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box; /* 꼭 해야 함 */
+  color: white;
+}
+
+html {
+  font-size: 16px;
+}
+
+body * {
+  font-family: "Noto Serif Display";
+  word-break: keep-all; /*텍스트를 어떻게 줄바꿈: 단어 단위*/
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  z-index: 1;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#exhibit {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exhibit-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block; /* 추가 */
+}
+
+.intro-container {
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+p {
+  font-weight: 100;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#exhibit p {
+  font-weight: 100;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+b {
+  font-weight: 300;
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    lightblue,
+    rebeccapurple,
+    violet
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+.artwork-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 130px;
+}
+
+.artwork-container h1 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.artwork-container h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.artwork-container p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgb(145, 145, 145);
+}
